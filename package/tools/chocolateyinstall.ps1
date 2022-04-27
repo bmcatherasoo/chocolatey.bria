@@ -4,7 +4,7 @@ $ErrorActionPreference = 'Stop';
 
 $toolsDir            = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $PackageParameters   = Get-PackageParameters
-$urlPackage = 'https://counterpath.s3.amazonaws.com/downloads/Bria_5.8.5_105447.exe'
+$urlPackage = 'https://counterpath.s3.amazonaws.com/downloads/Bria_5.8.5_105446.exe'
 $checksumPackage = '82feabfc717d5e07639ff1141f7d4aef7c1e53cce97e68e792878b8f45bc760c276770765232764d62cd0f6552511bdf3a3d287ad33aa51245730a2bd412b67f'
 $checksumTypePackage = 'SHA512'
 
